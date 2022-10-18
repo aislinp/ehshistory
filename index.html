@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>EHS History Club</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+	    <div id="toolbar">
+	        <a id="abutton" href="index.html">Home</a>
+	        <a id="abutton" href="thisweek.html">This Week in History Club</a>
+	        <!-- <a href="nextweek.html">Next Week in History Club</a> -->
+	        <!-- <a href="officers.html">Club Officers</a> not yet -->
+	        <a id="abutton" href="calendar.html">History Club's Calendar</a>
+	    </div>
+	    <div id="bodydiv">
+		<h1>EHS History Club!</h1>
+		<h3>Meets every Tuesday at lunch in Mr. Acheson's room.</h3>
+		<h4>Today's Wordles:</h4>
+		
+		<button id="histbutton">Show Today's Histordle</button>
+		<button id="worldbutton">Show Today's Worldle</button>
+		<button id="yearbutton">Show Today's Yeardle</button>
+		
+		<iframe class="wordle" id="worldle" src="https://worldle.teuteuf.fr/"></iframe>
+		<iframe class="wordle" id="histordle" src="https://histordle.vercel.app/"></iframe>
+		<iframe class="wordle" id="yeardle" src="https://histordle.com/yeardle/"></iframe>
+		</div>
+		<script type="text/javascript" src="wordle.js"></script>
+	</body>
+</html>
