@@ -1,0 +1,72 @@
+html, body {margin:0;padding:0;height:100%;}
+
+body {
+    font-family: Calibri;
+    text-align: center;
+    background-image: url("https://images.pexels.com/photos/69004/pexels-photo-69004.jpeg");
+}
+
+button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    color: #47443c;
+    font-weight: bold;
+}
+
+div {
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    color: #47443c;
+    background-color: #f1e6cd;
+    border-radius: 5px;
+}
+
+iframe {
+    background-color: white;
+    margin: auto;
+}
+
+.wordle {
+    display: none;
+    width: 480px;
+    height: 700px;
+}
+
+#abutton {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    color: #47443c;
+    font-weight: bold;
+}
+
+#bodydiv {
+    width: 600px;
+    min-height: 90%;
+    border-radius: 5px;
+    background-color: #f1e6cd;
+    text-align: center;
+    margin: auto;
+    color: #47443c;
+}
+
+#calendar {
+    width: 590px;
+    height: 400px;
+}
+
+#histordle {
+    display: block;
+}
+
+#slideshow {
+    width: 500px;
+    height: 320px;
+}
+
+#yeardle {
+    height: 1000px;
+}
