@@ -24,6 +24,10 @@ div {
     border-radius: 5px;
 }
 
+li {
+    text-align: left;
+}
+
 .divtext {
     margin-top: 60px;
     float: left;
